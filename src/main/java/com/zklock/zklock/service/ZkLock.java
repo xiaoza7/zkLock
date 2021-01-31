@@ -10,6 +10,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
+/**
+ * lmq
+ */
+
 public class ZkLock implements Lock {
     private ThreadLocal<ZooKeeper> zk =new ThreadLocal<>();
 
